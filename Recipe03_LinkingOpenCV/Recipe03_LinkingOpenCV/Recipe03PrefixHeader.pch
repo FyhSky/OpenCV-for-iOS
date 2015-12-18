@@ -1,0 +1,16 @@
+//
+//  Recipe03PrefixHeader.pch
+//  Recipe03_LinkingOpenCV
+//
+//  Created by LIANG XIN on 4/11/15.
+//  Copyright © 2015 Alexander Shishkov & Kirill Kornyakov. All rights reserved.
+//
+
+#ifndef Recipe03PrefixHeader_pch
+#define Recipe03PrefixHeader_pch
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#endif /* Recipe03PrefixHeader_pch */

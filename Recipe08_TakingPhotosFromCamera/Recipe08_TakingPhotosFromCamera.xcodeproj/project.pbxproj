@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8EEEAE21C23932800296AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EEEAE11C23932800296AF0 /* main.m */; };
+		A8EEEAE51C23932800296AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EEEAE41C23932800296AF0 /* AppDelegate.m */; };
+		A8EEEAE81C23932800296AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EEEAE71C23932800296AF0 /* ViewController.m */; };
+		A8EEEAEB1C23932800296AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EEEAE91C23932800296AF0 /* Main.storyboard */; };
+		A8EEEAED1C23932800296AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EEEAEC1C23932800296AF0 /* Assets.xcassets */; };
+		A8EEEAF01C23932800296AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EEEAEE1C23932800296AF0 /* LaunchScreen.storyboard */; };
+		A8EEEAF91C2393AE00296AF0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEAF81C2393AE00296AF0 /* opencv2.framework */; };
+		A8EEEAFB1C2393F000296AF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEAFA1C2393F000296AF0 /* CoreGraphics.framework */; };
+		A8EEEAFD1C2393F600296AF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEAFC1C2393F600296AF0 /* UIKit.framework */; };
+		A8EEEB001C23AAE500296AF0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEAFF1C23AAE500296AF0 /* AVFoundation.framework */; };
+		A8EEEB021C23AB0500296AF0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB011C23AB0500296AF0 /* Accelerate.framework */; };
+		A8EEEB041C23AB0C00296AF0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB031C23AB0C00296AF0 /* AssetsLibrary.framework */; };
+		A8EEEB061C23AB1C00296AF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB051C23AB1C00296AF0 /* CoreMedia.framework */; };
+		A8EEEB081C23AB2400296AF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB071C23AB2400296AF0 /* CoreVideo.framework */; };
+		A8EEEB0A1C23AB3600296AF0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB091C23AB3600296AF0 /* CoreImage.framework */; };
+		A8EEEB0C1C23AB3C00296AF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EEEB0B1C23AB3C00296AF0 /* QuartzCore.framework */; };
+		A8EEEB0F1C23AF1F00296AF0 /* RetroFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8EEEB0D1C23AF1F00296AF0 /* RetroFilter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8EEEADD1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipe08_TakingPhotosFromCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EEEAE11C23932800296AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8EEEAE31C23932800296AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8EEEAE41C23932800296AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8EEEAE61C23932800296AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8EEEAE71C23932800296AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8EEEAEA1C23932800296AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8EEEAEC1C23932800296AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8EEEAEF1C23932800296AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8EEEAF11C23932800296AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EEEAF81C2393AE00296AF0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		A8EEEAFA1C2393F000296AF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8EEEAFC1C2393F600296AF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8EEEAFE1C23942100296AF0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		A8EEEAFF1C23AAE500296AF0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8EEEB011C23AB0500296AF0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A8EEEB031C23AB0C00296AF0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A8EEEB051C23AB1C00296AF0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A8EEEB071C23AB2400296AF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A8EEEB091C23AB3600296AF0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A8EEEB0B1C23AB3C00296AF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A8EEEB0D1C23AF1F00296AF0 /* RetroFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RetroFilter.cpp; sourceTree = "<group>"; };
+		A8EEEB0E1C23AF1F00296AF0 /* RetroFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RetroFilter.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8EEEADA1C23932800296AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EEEB0C1C23AB3C00296AF0 /* QuartzCore.framework in Frameworks */,
+				A8EEEB0A1C23AB3600296AF0 /* CoreImage.framework in Frameworks */,
+				A8EEEB081C23AB2400296AF0 /* CoreVideo.framework in Frameworks */,
+				A8EEEB061C23AB1C00296AF0 /* CoreMedia.framework in Frameworks */,
+				A8EEEB041C23AB0C00296AF0 /* AssetsLibrary.framework in Frameworks */,
+				A8EEEB021C23AB0500296AF0 /* Accelerate.framework in Frameworks */,
+				A8EEEB001C23AAE500296AF0 /* AVFoundation.framework in Frameworks */,
+				A8EEEAFD1C2393F600296AF0 /* UIKit.framework in Frameworks */,
+				A8EEEAFB1C2393F000296AF0 /* CoreGraphics.framework in Frameworks */,
+				A8EEEAF91C2393AE00296AF0 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8EEEAD41C23932800296AF0 = {
+			isa = PBXGroup;
+			children = (
+				A8EEEADF1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera */,
+				A8EEEADE1C23932800296AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8EEEADE1C23932800296AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8EEEADD1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8EEEADF1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A8EEEAE61C23932800296AF0 /* ViewController.h */,
+				A8EEEAE71C23932800296AF0 /* ViewController.m */,
+				A8EEEB0D1C23AF1F00296AF0 /* RetroFilter.cpp */,
+				A8EEEB0E1C23AF1F00296AF0 /* RetroFilter.hpp */,
+				A8EEEAE91C23932800296AF0 /* Main.storyboard */,
+				A8EEEAEC1C23932800296AF0 /* Assets.xcassets */,
+				A8EEEAF71C23939E00296AF0 /* Framework */,
+				A8EEEAE01C23932800296AF0 /* Supporting Files */,
+			);
+			path = Recipe08_TakingPhotosFromCamera;
+			sourceTree = "<group>";
+		};
+		A8EEEAE01C23932800296AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8EEEAF11C23932800296AF0 /* Info.plist */,
+				A8EEEAEE1C23932800296AF0 /* LaunchScreen.storyboard */,
+				A8EEEAFE1C23942100296AF0 /* PrefixHeader.pch */,
+				A8EEEAE31C23932800296AF0 /* AppDelegate.h */,
+				A8EEEAE41C23932800296AF0 /* AppDelegate.m */,
+				A8EEEAE11C23932800296AF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8EEEAF71C23939E00296AF0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A8EEEB0B1C23AB3C00296AF0 /* QuartzCore.framework */,
+				A8EEEB091C23AB3600296AF0 /* CoreImage.framework */,
+				A8EEEB071C23AB2400296AF0 /* CoreVideo.framework */,
+				A8EEEB051C23AB1C00296AF0 /* CoreMedia.framework */,
+				A8EEEB031C23AB0C00296AF0 /* AssetsLibrary.framework */,
+				A8EEEB011C23AB0500296AF0 /* Accelerate.framework */,
+				A8EEEAFF1C23AAE500296AF0 /* AVFoundation.framework */,
+				A8EEEAFC1C2393F600296AF0 /* UIKit.framework */,
+				A8EEEAFA1C2393F000296AF0 /* CoreGraphics.framework */,
+				A8EEEAF81C2393AE00296AF0 /* opencv2.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8EEEADC1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EEEAF41C23932800296AF0 /* Build configuration list for PBXNativeTarget "Recipe08_TakingPhotosFromCamera" */;
+			buildPhases = (
+				A8EEEAD91C23932800296AF0 /* Sources */,
+				A8EEEADA1C23932800296AF0 /* Frameworks */,
+				A8EEEADB1C23932800296AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipe08_TakingPhotosFromCamera;
+			productName = Recipe08_TakingPhotosFromCamera;
+			productReference = A8EEEADD1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8EEEAD51C23932800296AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kirill Kornyakov & Alexander Shishkov";
+				TargetAttributes = {
+					A8EEEADC1C23932800296AF0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A8EEEAD81C23932800296AF0 /* Build configuration list for PBXProject "Recipe08_TakingPhotosFromCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8EEEAD41C23932800296AF0;
+			productRefGroup = A8EEEADE1C23932800296AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8EEEADC1C23932800296AF0 /* Recipe08_TakingPhotosFromCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8EEEADB1C23932800296AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EEEAF01C23932800296AF0 /* LaunchScreen.storyboard in Resources */,
+				A8EEEAED1C23932800296AF0 /* Assets.xcassets in Resources */,
+				A8EEEAEB1C23932800296AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8EEEAD91C23932800296AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EEEAE81C23932800296AF0 /* ViewController.m in Sources */,
+				A8EEEAE51C23932800296AF0 /* AppDelegate.m in Sources */,
+				A8EEEB0F1C23AF1F00296AF0 /* RetroFilter.cpp in Sources */,
+				A8EEEAE21C23932800296AF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8EEEAE91C23932800296AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8EEEAEA1C23932800296AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8EEEAEE1C23932800296AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8EEEAEF1C23932800296AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8EEEAF21C23932800296AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8EEEAF31C23932800296AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8EEEAF51C23932800296AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recipe08_TakingPhotosFromCamera",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/liangxin/Developer/OpenCVForIOS/Recipe08_TakingPhotosFromCamera/PrefixHeader.pch;
+				INFOPLIST_FILE = Recipe08_TakingPhotosFromCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpenCVforIOS.Recipe08-TakingPhotosFromCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8EEEAF61C23932800296AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recipe08_TakingPhotosFromCamera",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/liangxin/Developer/OpenCVForIOS/Recipe08_TakingPhotosFromCamera/PrefixHeader.pch;
+				INFOPLIST_FILE = Recipe08_TakingPhotosFromCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpenCVforIOS.Recipe08-TakingPhotosFromCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8EEEAD81C23932800296AF0 /* Build configuration list for PBXProject "Recipe08_TakingPhotosFromCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EEEAF21C23932800296AF0 /* Debug */,
+				A8EEEAF31C23932800296AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EEEAF41C23932800296AF0 /* Build configuration list for PBXNativeTarget "Recipe08_TakingPhotosFromCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EEEAF51C23932800296AF0 /* Debug */,
+				A8EEEAF61C23932800296AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8EEEAD51C23932800296AF0 /* Project object */;
+}

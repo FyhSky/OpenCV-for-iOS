@@ -1,0 +1,16 @@
+//
+//  Recipe07ApplyingRetroEffectPrefixHeader.pch
+//  Recipe07_ApplyingRetroEffect
+//
+//  Created by LIANG XIN on 17/12/15.
+//  Copyright © 2015 Kirill Kornyakov & Alexander Shishkov. All rights reserved.
+//
+
+#ifndef Recipe07ApplyingRetroEffectPrefixHeader_pch
+#define Recipe07ApplyingRetroEffectPrefixHeader_pch
+
+#ifdef __cplusplus 
+#import <opencv2/opencv.hpp> 
+#endif
+
+#endif /* Recipe07ApplyingRetroEffectPrefixHeader_pch */
